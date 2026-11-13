@@ -64,6 +64,7 @@ body {
 .theme-btn {
   border: none;
   background-color: var(--white-black);
+  cursor: pointer;
 }
 .themeMode {
   display: flex;
@@ -129,6 +130,7 @@ body {
   border: none;
   background-color: #0079ff;
   color: white;
+  cursor: pointer;
 }
 
 /* profile */
