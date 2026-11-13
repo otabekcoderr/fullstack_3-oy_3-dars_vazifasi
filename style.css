@@ -1,27 +1,25 @@
 @import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap);
 
 :root {
-  --primary-color: #1E2A47;
-  --secondry-color:
-  #141d2f;
+  --primary-color: #1e2a47;
+  --secondry-color: #141d2f;
   --btn-color: #0079ff;
   --white-black: #1e2a47;
   --big-font-color: white;
-  --small-font-color:white;
-  --box-shadow:none;
-  --bio-color:white;
-;
+  --small-font-color: white;
+  --box-shadow: none;
+  --bio-color: white;
 }
 
 .light-mode {
-  --primary-color: #F6F8FF;
+  --primary-color: #f6f8ff;
   --secondry-color: white;
   --btn-color: #0079ff;
   --white-black: #f6f8ff;
   --big-font-color: #222731;
-  --small-font-color: #697C9A;
-  --box-shadow:0px 16px 30px -10px rgba(70, 96, 187, 0.2);
-  --bio-color:#4B6A9B;
+  --small-font-color: #697c9a;
+  --box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+  --bio-color: #4b6a9b;
 }
 
 body {
@@ -63,9 +61,9 @@ body {
   line-height: 100%;
   letter-spacing: 0px;
 }
-.theme-btn{
-    border: none;
-    background-color:var(--white-black);
+.theme-btn {
+  border: none;
+  background-color: var(--white-black);
 }
 .themeMode {
   display: flex;
@@ -107,11 +105,15 @@ body {
     width: 22px;
     height: 22px;
   }
-  p {
+  input {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0px;
+    border: none;
+    background-color: var(--secondry-color);
+  }
+  input::placeholder {
     color: var(--small-font-color);
   }
 }
@@ -189,7 +191,7 @@ body {
   font-size: 26px;
   line-height: 100%;
   letter-spacing: 0px;
-  color:var(--big-font-color);
+  color: var(--big-font-color);
 }
 .username {
   padding-top: 2px;
@@ -349,7 +351,7 @@ body {
 
 @media (max-width: 540px) {
   .left-search {
-    p {
+    input {
       font-weight: 400;
       font-size: 13px;
       line-height: 25px;
@@ -447,7 +449,7 @@ body {
     margin-top: 20px;
   }
   .left-search {
-    p {
+    input {
       font-size: 10px;
       line-height: 15px;
     }
@@ -464,6 +466,3 @@ body {
     font-size: 5px;
   }
 }
-
-
-

@@ -26,7 +26,7 @@ function toggleMode(themeMode) {
     linkIconEl.src = "./image/link-icon.svg";
     twitterIconEl.src = "./image/twitter-icon.svg";
     officeIconEl.src = "./image/office-icon.svg";
-  }
+  }``
 }
 
 let chooseTheme = localStorage.getItem("theme") || "dark";
@@ -37,3 +37,6 @@ btnEl.addEventListener("click", () => {
   localStorage.setItem("theme", chooseTheme);
   toggleMode(chooseTheme);
 });
+
+// Netlify havolasi
+// https://stirring-lebkuchen-64fcc6.netlify.app/
